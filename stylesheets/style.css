@@ -1,3 +1,9 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
 img.bg {
   background: url("../images/bg.jpg");
   height: 100%;
@@ -24,4 +30,13 @@ img.bg {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
+}
+
+label.label_input_wrap {
+    display: block;
+}
+
+.comments {
+	border: 1px solid blue;
+	padding: 9px 11px;
 }
