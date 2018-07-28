@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 10 Glover Stephanie</title>
+
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <!--favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" />
+
+        <!-- CSS -->
+        <link rel="stylesheet"  href="stylesheet/style.css" />
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="scripts/javascript.js"></script>
+
+      </head>
+        <body>
+          <main>
+            <div id="bg">
+              <img src="images/bg.jpg" alt="bg">
+            </div>
+
+           <form name="firstform" method="" action="">
+             <div class="first-name">
+               <label for="firstname" class="label_input_wrap">First Name:</label>
+               <input type="text" name="firstname" id="firstname" required />
+             </div>
+
+             <div class="last-name">
+               <label for="lastname" class="label_input_wrap">Last Name:</label>
+               <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+             </div>
+
+             <div class="email">
+               <label for="email" class="label_input_wrap">Email: </label>
+               <input type="email" name="email" placeholder="test@example.com" id="email" />
+             </div>
+
+             <div class="telephone">
+               <label for="telephone" class="label_input_wrap">Telephone: </label>
+               <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
+             </div>
+
+             <div class="comments">
+               <label for="comments" class="label_input_wrap">Comments: </label>
+               <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Please Leave Us a Message"></textarea>
+            </div>
+
+            <div class="radiobutton">
+              <h3>If you want work with us, please choose one of the following:</h3>
+              <input type="radio" name="projects" value="ideation + research"  id="indeation + research"/><label for="ideation + research">Ideation + Research</label>
+              <input type="radio" name="projects" value="ux + webdesign" id="ux + webdesign" /><label for="ux + webdesign">UX + Webdesign</label>
+              <input type="radio" name="projects" value="branding + logo" id="branding + logo" /><label for="brandig + logo">Branding + Logo</label>
+            </div>
+
+          <div class="dropdown">
+            <label for="communiction type" class="label_input_wrap">How do you want us to contact you?</label>
+            <select name="communication" id="communication">
+              <option value="e-mail" selected>E-mail</option>
+              <option value="telephone">Telephone</option>
+            </select>
+          </div>
+
+
+        </main>
+      </body>
+    </html>
