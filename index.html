@@ -1,78 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Assignment 10 Glover Stephanie</title>
+<html lang="zxx">
+	<head>
 
-        <meta charset="utf-8" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+		<title>Assignment10-Glover-Stephanie</title>
 
-        <!--favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico" />
+		<meta charset="utf-8" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
 
-        <!-- CSS -->
-        <link rel="stylesheet"  href="stylesheet/style.css" />
+		<!-- FAVIcon -->
+		<link rel="shortcut icon" href="images/favicon/favicon.ico" />
 
-        <!-- Scripts -->
-        <script type="text/javascript" src="scripts/javascript.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="stylesheets/style.css"/>
 
       </head>
         <body>
           <main>
-            <div id="bg">
-              <img src="images/bg.jpg" alt="bg">
-            </div>
+            <section class="hero-image-section" id="home">
+              <h2>Welcome to Our Home Page!</h2>
 
-            <section class="section-break"></section>
+              <div class="container">
+                <section class="contact-section" id="contact-us">
+                  <h2>Questions? Contact Us</h2>
+                </section>
+              </div>
 
-            <div class="container">
-                    <section class="contact-section" id="contact-us">
-                      <h2>Contact Us</h2>
-                    </section>
+              <form class="form" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)"></form>
+              <div class="first-name">
+                <label for="firstname" class="label_input_wrap">First Name:</label>
+                <input type="text" name="firstname" id="firstname" required />
+              </div>
 
-            <div class="form">
-            <form name="firstform" method="" action="">
-            <div class="first-name">
-               <label for="firstname" class="label_input_wrap">First Name:</label>
-               <input type="text" name="firstname" id="firstname" required />
-             </div>
+              <div class="last-name">
+                <label for="lastname" class="label_input_wrap">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+              </div>
 
-             <div class="last-name">
-               <label for="lastname" class="label_input_wrap">Last Name:</label>
-               <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
-             </div>
+              <div class="email">
+                <label for="email" class="label_input_wrap">Email: </label>
+                <input type="email" name="email" placeholder="test@example.com" id="email"/>
+              </div>
 
-             <div class="email">
-               <label for="email" class="label_input_wrap">Email: </label>
-               <input type="email" name="email" placeholder="test@example.com" id="email" />
-             </div>
+              <div class="telephone">
+                <label for="telephone" class="label_input_wrap">Telephone: </label>
+                <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
+              </div>
 
-             <div class="telephone">
-               <label for="telephone" class="label_input_wrap">Telephone: </label>
-               <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
-             </div>
+              <div class="comments">
+                <label for="comments" class="label_input_wrap">Comments: </label>
+                <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Please Leave Us a Message" id="comments"></textarea>
+              </div>
 
-             <div class="comments">
-               <label for="comments" class="label_input_wrap">Comments: </label>
-               <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Please Leave Us a Message"></textarea>
-            </div>
+              <div class="radiobutton">
+                <h3>If you want work with us, please choose one of the following:</h3>
+                <input type="radio" name="projects" value="ideation"  id="ideation"/><label for="ideation">Ideation</label>
+                <input type="radio" name="projects" value="webdesign" id="webdesign" /><label for="webdesign">Webdesign</label>
+                <input type="radio" name="projects" value="branding" id="branding" /><label for="branding">Branding</label>
+              </div>
 
-            <div class="radiobutton">
-              <h3>If you want work with us, please choose one of the following:</h3>
-              <input type="radio" name="projects" value="ideation + research"  id="indeation + research"/><label for="ideation + research">Ideation + Research</label>
-              <input type="radio" name="projects" value="ux + webdesign" id="ux + webdesign" /><label for="ux + webdesign">UX + Webdesign</label>
-              <input type="radio" name="projects" value="branding + logo" id="branding + logo" /><label for="branding + logo">Branding + Logo</label>
-            </div>
+              <div class="dropdown">
+                <label for="communication" class="label_input_wrap">How do you want us to contact you?</label>
+                <select name="communication" id="communication">
+                  <option value="e-mail" selected>E-mail</option>
+                  <option value="telephone">Telephone</option>
+                </select>
+               </div>
 
-          <div class="dropdown">
-            <label for="communication" class="label_input_wrap">How do you want us to contact you?</label>
-            <select name="communication" id="communication">
-              <option value="e-mail" selected>E-mail</option>
-              <option value="telephone">Telephone</option>
-            </select>
-        </div>
-
-
+               <div class="submit">
+                <input type="submit" value="Submit"/>
+              </div>
+           </section>
         </main>
       </body>
     </html>
