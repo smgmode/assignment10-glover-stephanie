@@ -7,7 +7,7 @@ developer.mozilla.org
 W3schools
 
 # Comments
-**I had a question about the code that we added to the php form, since we weren't using headers and footers.**
+**I had a question about the code that we added to the php form and about the submit button.**
 
 **HTML Validator: questioned the php form line that was added to html**
 
