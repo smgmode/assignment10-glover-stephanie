@@ -4,35 +4,42 @@
 	border: 0;
 }
 
-body {
-  background: url("../images/bg.jpg");
+.hero-image-section {
+  background-image: url("../images/hero-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100%;
-  background: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding: 500px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  text-align: center;
+  font-size: 10px;
+  color: blue;
+  padding-top: 50px;
+  font-size: 16px;
 }
 
 label.label_input_wrap {
-    vertical-align: top;
-    margin: 0 auto;
+  vertical-align: top;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 input,
 textarea {
-  border: 1px solid blue;
+  border: 8px solid yellow;
   padding: 9px 11px;
-  text-decoration-color: yellow;
+  text-decoration-color: blue;
 }
 
-form{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-}
-.contact-section {
-	padding: 100px 0;
-	width: 630px;
-	margin: 0 auto;
+ input[type="submit"] {
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  text-align: center;
 }
